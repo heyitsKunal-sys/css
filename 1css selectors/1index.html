@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Css selector</title>
+    <style>
+        /* element selector */
+        div {
+            background-color: red;
+        }
+/* class selector  */
+        .red{
+            background-color: blue;
+        }
+        /* Id selector */
+        #green{
+            background-color: green;
+        }
+        /* child selector */
+        div > p {
+            color: blue;
+            background-color: yellow;
+        }
+        /* descendent selector */
+        div p {
+            color: white;
+            background-color: black;
+        }
+        /* unniversal selector */
+        * {
+            margin: auto;
+            padding: auto;
+        }
+/* Psuedo selector */
+a:visited{
+    color: yellow;
+}
+a:link{
+    color:red;
+}
+a:active{
+    background-color: blue;
+}
+a:hover{
+    background-color: yellow;
+}
+p:first-child{
+    background-color: aqua;
+}
+            
+    </style>
+</head>
+<body>
+    <div class=" red">
+iam a div
+<article><p>hello iam a coder</p>
+</article>
+
+    </div>
+    <div id="green">
+        hey there
+    </div>
+    <a href="https://www.google.com">go to google</a>
+     <a href="https://www.facebook.com">go to facebook</a>
+     <main>
+        <p>hey</p>
+     </main>
+</body>
+</html>
